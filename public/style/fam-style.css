@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 body {
-  background-color: #5BACFD;
+  background: linear-gradient( rgba(89,171,255,1), rgba(187,219,252,1));
 }
 div{
     padding:  10px;
@@ -136,9 +136,9 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .sidebar {
-  width: 90px !important;
+  width: 300px !important;
   background-color: #B1D7FE;
-  min-height: calc(100vh - 56px);
+  min-height: 100%;
   border-radius: 0px 0px 15px 15px;
 }
 
@@ -173,11 +173,8 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 @media (min-width: 768px) {
-  .sidebar {
-    width: 300px !important;
-  }
   .sidebar .nav-item {
-    padding: 20px 50px 20px 25px;
+    padding: 5px 50px 0.1px 25px;
   }
   .sidebar .nav-item .nav-link {
     display: block;
@@ -193,7 +190,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
     background-color: #F2F2F2;
   }
   .sidebar .nav-item .nav-link span {
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: inline;
     color: #757677;
     padding: inherit;

@@ -65,7 +65,7 @@
 
 
         <!-- Sidebar -->
-        <ul class="sidebar navbar-nav list-unstyled">
+        <ul class="sidebar navbar-nav list-unstyled" id="side-menu">
           <li class="nav-item active">
             <a class="nav-link" href="#fixedAssetDropdown" role="button" data-toggle="collapse" aria-expanded="false">
                   <i class="fas fa-fw"><img src="resources/image/fixed-asset/fixed-assets.png" class="img-fluid" alt="Fixed Asset"></i>
@@ -94,7 +94,153 @@
               <li><a class="nav-link" data-toggle="collapse" href="#"><i class="fas fa-fw"><img src="resources/image/fixed-asset/fixed-assets-purchase.png" class="img-fluid" alt="ApproveTransferSellWriteOff"></i><span>Approve Transfer / Sell / WriteOff</span></a></li>
           </ul>
           </li>
-        </ul>
+          <!--Branch-->
+          <li class="nav-item active">
+            <a class="nav-link" href="#Branch" role="button" data-toggle="collapse" aria-expanded="false">
+                  <i class="fas fa-fw"><img src="resources/image/branch/branches.png" class="img-fluid" alt="Branch"></i>
+                  <span>Branch</span>
+            </a>
+            <ul class="collapse list-unstyled" id="Branch">
+              <li><a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/branch/brach-entry.png" class="img-fluid" alt="BranchEntry"></i><span>BranchEntry</span></a>
+              </li>
+              <li><a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/branch/branch_search.png" class="img-fluid" alt="BranchSearch"></i><span>BranchSearch</span></a>
+              </li>
+              <li><a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/branch/branch_search.png" class="img-fluid" alt="Departments"></i><span>Departments</span></a>
+              </li>
+            </ul>
+          </li>
+          <!--User-->
+          <li class="nav-item active">
+            <a class="nav-link" href="#User" role="button" data-toggle="collapse" aria-expanded="false">
+                  <i class="fas fa-fw"><img src="resources/image/user/user.png" class="img-fluid" alt="User"></i>
+                  <span>User</span>
+            </a>
+            <ul class="collapse list-unstyled" id="User">
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/user/user-entry.png" class="img-fluid" alt="MyProfile"></i>
+                <span>My Profile</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/user/user-search.png" class="img-fluid" alt="UserSearch"></i>
+                 <span>User Search</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/branch/branch_search.png" class="img-fluid" alt="MyApprovers"></i>
+                <span>My Approvers</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/branch/branch_search.png" class="img-fluid" alt="UserSetUp"></i>
+                <span>User Setup</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <!--Vendor-->
+          <li class="nav-item active">
+            <a class="nav-link" href="#Vendor" role="button" data-toggle="collapse" aria-expanded="false">
+                  <i class="fas fa-fw"><img src="resources/image/vendor/vendor.png" class="img-fluid" alt="Vendor"></i>
+                  <span>Vendor</span>
+            </a>
+            <ul class="collapse list-unstyled" id="Vendor">
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/vendor/vendor-entry.png" class="img-fluid" alt="Vendor Entry"></i>
+                <span>Vendor Entry</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/vendor/vendor-search.png" class="img-fluid" alt="VendorSearch"></i>
+                 <span>Vendor Search</span>
+                </a>
+              </li>
+          </ul>
+          </li>
+          <!--Assets-->
+          <li class="nav-item active">
+            <a class="nav-link" href="#Assets" role="button" data-toggle="collapse" aria-expanded="false">
+                  <i class="fas fa-fw"><img src="resources/image/assets/assets.png" class="img-fluid" alt="Assets"></i>
+                  <span>Assets</span>
+            </a>
+            <ul class="collapse list-unstyled" id="Assets">
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/assets/asset-category.png" class="img-fluid" alt="AssetsCategorySetup"></i>
+                <span>Asset Category Setup</span>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/assets/asset-setup.png" class="img-fluid" alt="AssetSetup"></i>
+                 <span>Asset Setup</span>
+                </a>
+              </li>
+           </ul>
+         </li>
+         <!--Depreciation-->
+         <li class="nav-item active">
+           <a class="nav-link" href="#Depreciation" role="button" data-toggle="collapse" aria-expanded="false">
+                 <i class="fas fa-fw"><img src="resources/image/depreciation/depreciation.png" class="img-fluid" alt="Depreciation"></i>
+                 <span>Depreciation</span>
+           </a>
+           <ul class="collapse list-unstyled" id="Depreciation">
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/depreciation/depreciation-request.png" class="img-fluid" alt="Depreciation Request"></i>
+               <span>Depreciation Request</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/depreciation/depreciation-approve.png" class="img-fluid" alt="Depreciation Approval"></i>
+               <span>Depreciation Approval</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/depreciation/depreciation-approve.png" class="img-fluid" alt="Depreciation Approval Request"></i>
+                <span>Depreciation Approval Request</span>
+               </a>
+             </li>
+          </ul>
+        </li>
+         <!--Reports-->
+         <li class="nav-item active">
+           <a class="nav-link" href="#Reports" role="button" data-toggle="collapse" aria-expanded="false">
+                 <i class="fas fa-fw"><img src="resources/image/reports/reports.png" class="img-fluid" alt="Depreciation"></i>
+                 <span>Reports</span>
+           </a>
+           <ul class="collapse list-unstyled" id="Reports">
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/fixed-asset-transfer-report.png" class="img-fluid" alt="Depreciation Request"></i>
+               <span>Fixed Asset Transfer Report</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/fixed-asset-sell-report.png" class="img-fluid" alt="Depreciation Approval"></i>
+               <span>Fixed Asset Sell Report</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/write-off-report.png" class="img-fluid" alt="Depreciation Approval Request"></i>
+                <span>Fixed Asset WriteOff Report</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/depreciation-report.png" class="img-fluid" alt="Depreciation Approval Request"></i>
+                <span>Depreciation Report</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/consolidated_report.png" class="img-fluid" alt="Depreciation Approval Request"></i>
+                <span>Consolidated Depreciation Report</span>
+               </a>
+             </li>
+             <li>
+               <a class="nav-link" href="#"><i class="fas fa-fw"><img src="resources/image/reports/balance-sheet.png" class="img-fluid" alt="Depreciation Approval Request"></i>
+                <span>Balance Sheet</span>
+               </a>
+             </li>
+          </ul>
+        </li>
+       </ul>
      </div>
         <!-- Footer -->
         <footer class="py-2">
